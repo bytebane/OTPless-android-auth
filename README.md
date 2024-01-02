@@ -14,3 +14,5 @@ This project is a starting point for OTPless Integration with Kotlin Android.
 - ***Thats it***. Add your own logic in `onOtplessCallback()` to deal with the authenticated user data or error data in response.
 
 > Note: OTPless Auth Page won't work unless you whitelist your App by adding App's BundleId in [OTPless dashboard](https://otpless.com/platforms/flutter).
+
+>> [Checkout Java Integration](https://github.com/bytebane/OTPless-android-auth/tree/java)
