@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         Button loginBtn = findViewById(R.id.loginBtn);
 
         loginBtn.setOnClickListener(v -> {
-            //TODO: Link to login activity
-
+            Intent intent = new Intent(this, Authenticate.class);
+            startActivity(intent);
         });
     }
 }
